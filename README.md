@@ -44,7 +44,7 @@ Nous avons réparti les tâches comme suit : Perrine a récupéré les corpus EF
 - Méthode : masquage aléatoire de 15 % des tokens WordPiece par phrase pour que le modèle apprenne à prédire les mots manquants à partir du contexte.  
 #### **Évaluation des modèles**  
 Les performances des modèles (apprenant artificiel et locuteur natif) ont été comparées sur des textes d’apprenants externes.  
-***Remarque : Étant donné que l'évaluation du modèle EFCAMDAT sur le corpus complet entraîne toujours la déconnection de l'environnement, ici on prend seulement les 200 premiers textes du corpus pour l'évaluation du modèle EFCAMDAT.***
+***Remarque : Étant donné que l'évaluation du modèle EFCAMDAT sur le corpus complet entraîne toujours la déconnection de l'environnement, ici on prend seulement les 200 premiers textes du corpus pour l'évaluation du modèle EFCAMDAT. À ce jour, nous ignorons les raisons qui n'ont pas permis de mener à bien l'évaluation du modèle EFCAMDAT sur l'ensemble sur corpus test. Cependant, l'évaluation du modèle C4200M a pu être effectuée sur l'ensemble du corpus test.***  
 ##### **Métriques utilisées**  
 1. **Recall-at-k (R@k)** :  
    - Mesure la précision des modèles : combien de fois le mot correct figure parmi les k prédictions les plus probables.  
