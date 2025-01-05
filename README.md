@@ -5,6 +5,9 @@
 #### **Objectif du projet**  
 Explorer la possibilité de développer un modèle unique capable de simuler le comportement d’apprenants dans divers contextes. En entraînant un modèle de langage sur des données issues d’apprenants, il serait envisageable de créer un "apprenant artificiel" d’anglais reproduisant les particularités des apprenants réels.  
 
+#### **Partage des tâches** 
+Nous avons réparti les tâches comme suit : Perrine a récupéré les corpus EFCAMDAT et C4200M, puis préentraîné deux modèles BERT sur ces corpus respectifs. Zhongjie a pris en charge la récupération du corpus de test (CELVA-SP) et a évalué le modèle BERT préentraîné sur EFCAMDAT par rapport au modèle BERT de base sur ce corpus de test. De son côté, Guilhem a évalué le modèle BERT préentraîné sur C4200M en le comparant également au modèle BERT de base sur le corpus de test. Léa a ensuite comparé les résultats obtenus lors de l'expérimentation avec ceux présentés dans l'article. Enfin, tous les membres du groupe ont contribué à la rédaction de l'article récapitulatif en fonction des tâches qui leur avaient été attribuées.
+
 #### **Problématiques de l'article d'origine**  
 1. Dans quelle mesure l’apprenant artificiel peut-il prédire avec précision ce qu’un apprenant réel dirait ?  
 2. Quelle est la confiance du modèle dans ses prédictions ?  
